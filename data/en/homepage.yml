@@ -1,0 +1,124 @@
+############################# banner ############################
+banner:
+  title: "Devops automation"
+  tagline: "Deploy software easily, consistently and predictably."
+  image: "images/logo.png"
+  # button:
+  #  enable: true
+  #  label: "Get Enginesd"
+  #  link: "get"
+  # content: "
+  # <small>
+  # engines.org is sponsored by <a href='https://www.enginesd.com'>Enginesd</a>.
+  # <br>
+  # Are you a business? Use Enginesd to solve your software deploymeny problems!
+  # </small>
+  # "
+
+############################# features ############################
+features:
+  - icon: tf-ion-android-done-all
+    text: Enginesd helps sysadmins and developers be more productive.
+  - icon: tf-ion-ios-loop-strong
+    text: Use Enginesd to manage the full operational life cycle of your software.
+  - icon: tf-ion-ios-color-wand
+    text: Declare your deployments and let Enginesd do the rest.
+
+############################# blurb ############################
+blurb:
+  - title: The Problem
+    paragraphs:
+      - "
+      Running software is difficult.
+      You need a bunch of specialist skills to make it happen."
+      - "
+      Application developers don’t usually have these skills or aren’t great with them.
+      Developers want to deliver great solutions, but can’t without either becoming reluctant jacks-of-all trades or relying on others for help."
+      - "
+      System administrators have the know-how, but even then it’s challenging and time consuming.
+      Particularly for consultants, who often have multiple clients with dissimilar implementations. There is so much to do."
+      - "
+      There are some powerful devops tools and techniques available.
+      You’ll see infrastructure-as-code, CI/CD pipelines, 12 factor, immutable infrastructure and shift left workflows. Cattle not pets, they say.
+      These techniques abstract certain complexities and allow you to be more declarative in the composition of systems, networks, applications and services."
+      - "
+      That’s great, but where things often get tricky is with configuration.
+      The various aspects of configuration can be difficult to unpick.
+      This is because of their inter-dependent nature and the need to incorporate information at various stages across the software life cycle.
+      Sometimes you can lose sight of what’s what."
+      - "So how do you get configuration to shift left?"
+      - "
+      This is where Enginesd can help.
+      Enginesd knows how to resolve configuration information and employ it in building, provisioning, commissioning and runtime.
+      It lets you take a highly declarative approach to running software.
+      Tell Enginesd about the needs and dependencies of your software, then sit back and watch it all fall into place."
+  - title: The Solution
+    paragraphs:
+      - "
+      Deploying software using Enginesd begins with expressing requirements in one or more blueprints.
+      You might think of a blueprint as a codified readme.
+      Within blueprints you declare things like dependencies and the location of source code."
+      - "
+      Enginesd digests your blueprints and resolves a topology for your system.
+      This is used, in turn, to build images, provision infrastructure, and commission software."
+      - "
+      A great thing about blueprints is that they are composable: they’re building blocks for constructing a system piece by piece.
+      Furthermore, you can incorporate blueprints written by other people with little fuss.
+      You can import all sorts of base environments and frameworks, as well as ready-to-go services that just work."
+      - "
+      Resource allocation is easily addressed.
+      Here we’re talking things like: should software run locally or in one or more VMs or containers; how much memory should be allocated; and is there a need for dynamic scaling? Blueprints can contain information to guide the process, so that resourcing parameters can be inferred by Enginesd when it resolves your topology."
+      - "
+      Services, like email and databases, can be deployed incrementally or in tandem with applications.
+      Software can be deployed to any number of environments.
+      You can scale up and scale back.
+      Maintenance becomes simple."
+      - "
+      Enginesd can work with various build tools and runtimes.
+      You can use products from Hashicorp and Docker.
+      You could run with LXD. You could even provision using Kubernetes, if you really wanted to."
+
+############################# segments ############################
+segments:
+  # - heading: Sysadmins and Devops&nbsp;Engineers
+  #   paragraphs:
+  #     - Deploy systems faster. Leverage your time and skills.
+  #     - Solve more problems for more people.
+  # - heading: Agencies and Freelance&nbsp;Developers
+  #   paragraphs:
+  #     - Your clients can get things running for themselves, with minimal hand-holding from you.
+  #     - ??Get your code into client environments.??
+  - heading: Enterprises
+    paragraphs:
+      - A whole lot of pain goes away when you compose your systems under a common configuration plane.
+      - You’ll get rapid, flexible deployments. Anti-patterns and idiosyncrasies will stop leaking into provisioning and runtime.
+  - heading: SAAS Providers
+    paragraphs:
+      - Supply customers with dedicated instances so they won’t be crowded-out by other tenants.
+      - Or spin-off instances onto customer infrastructure to satisfy data security policies.
+  - heading: Startups
+    paragraphs:
+      - Your infrastructure is up and your software is running.
+      - Go make some money.
+
+############################# demo ############################
+demo:
+  title: Demo
+  content: "
+<p>If you’d like to see Enginesd in action, you can find a reference implementation at <a href='www.engines.org'>engines.org</a>.</p>
+<p>Here Enginesd has been setup to operate with behaviours that suit the needs of individuals who want to self-host FOSS on a physical box or single machine in the cloud.</p>
+<p>
+The engines.org setup:
+  <ul>
+  <li>An app library containing a range of popular applications has been incorporated.</li>
+  <li>Targets a single host with one machine and one tenancy.</li>
+  <li>Applications are deployed in containers by default.</li>
+  <li>Packer is used for building images.</li>
+  <li>Terraform does provisioning.</li>
+  <li>Docker and LXD run containers.</li>
+  <li>Prometheus and Cadvisor for monitoring.</li>
+  <li>Loki and Promtail handle logging.</li>
+  <li>Users are managed with OpenLDAP.</li>
+  </ul>
+</p>
+"

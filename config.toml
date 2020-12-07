@@ -1,0 +1,81 @@
+baseURL = "http://www.enginesd.com/"
+languageCode = "en-us"
+title = "Enginesd"
+
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+
+###################################### Navigation ######################################
+
+# homepage section menu
+# [[menu.main]]
+# name = "Home"
+# URL = "/"
+# weight = 1
+#
+# [[menu.main]]
+# name = "Apps"
+# URL = "apps"
+# weight = 2
+#
+# [[menu.main]]
+# name = "Blog"
+# URL = "blog"
+# weight = 3
+#
+# [[menu.main]]
+# name = "Contact"
+# URL = "contact"
+# weight = 5
+
+# # footer menu
+# [[menu.footer]]
+# name = "Blog"
+# URL = "blog"
+# weight = 1
+#
+# [[menu.footer]]
+# name = "Contact"
+# URL = "contact"
+# weight = 2
+
+########################### meta ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "100px"
+# Meta data
+description = "Enginesd - Devops Automation"
+author = "Lachlan Douglas"
+
+########################### renderer ##########################
+[markup.goldmark.renderer]
+unsafe = true
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
