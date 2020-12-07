@@ -3,17 +3,6 @@ banner:
   title: "Devops automation"
   tagline: "Deploy software easily, consistently and predictably."
   image: "images/logo.png"
-  # button:
-  #  enable: true
-  #  label: "Get Enginesd"
-  #  link: "get"
-  # content: "
-  # <small>
-  # engines.org is sponsored by <a href='https://www.enginesd.com'>Enginesd</a>.
-  # <br>
-  # Are you a business? Use Enginesd to solve your software deploymeny problems!
-  # </small>
-  # "
 
 ############################# features ############################
 features:
