@@ -1,0 +1,50 @@
+.section-features {
+  padding: 30px 0px 20px 0px;
+  font-size: 1.25rem;
+  .feature {
+    margin-bottom: 20px;
+  }
+  .icon {
+    display: inline-block;
+    width: 40px;
+    font-size: 2rem;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+  }
+  .text {
+    display: inline-block;
+    width: calc(100% - 60px);
+  }
+}
+
+.section-segments {
+  padding: 30px 0px 20px 0px;
+  background-color: #48D;
+  color: white;
+  .heading {
+    font-size: 1.2rem;
+    font-family: "Quicksand";
+    font-weight: bold;
+  }
+  .text {
+    p {
+      margin-bottom: 0.3rem;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+.section-blurb {
+  padding: 30px 0px 20px 0px;
+}
+
+.section-demo {
+  background-color: #48D;
+  color: white;
+  padding: 30px 0px 20px 0px;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
